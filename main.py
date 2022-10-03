@@ -4,7 +4,7 @@ import pandas as pd
 import geopandas as gpd
 
 
-@st.cache  # This function will be cached
+# @st.cache  # This function will be cached
 def read_df_rain(path):
     # slow
     df = pd.read_csv(path)
