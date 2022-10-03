@@ -27,7 +27,7 @@ tab1, tab2, tab3 = st.tabs(["🗺️ Local", "🗃 Dados", "💻 Metodologia "])
 
 tab1.subheader('Locais de avaliação')
 tab1.text('No presente estudo, as mesorregiões NO e NE do estado do Mato Grosso foram usadas para avaliação.')
-tab1.image('/data/maps2.png')
+tab1.image('./data/maps2.png')
 
 tab2.subheader('Amostra dos dados em grade utilizados no estudo')
 tab2.text("Obs: Foi utilizada base de dados históricos em grade com duração de 36 anos das mesorregiões Norte e Nordeste do estado do MT.")
