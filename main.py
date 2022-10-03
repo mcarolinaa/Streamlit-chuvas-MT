@@ -10,7 +10,7 @@ def read_df_rain(path):
     df = pd.read_csv(path)
     return df
 
-df_nor = read_df_rain('/data/df_sdo.csv')
+df_nor = read_df_rain('./data/df_sdo.csv')
 
 st.markdown("# Avaliação espaço-temporal de chuvas decendiais em início de safra em regiões do MT :rain_cloud:")
 st.sidebar.markdown("# Introdução e Material e Métodos :rain_cloud:")
